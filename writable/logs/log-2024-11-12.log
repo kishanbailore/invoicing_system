@@ -1,0 +1,1225 @@
+CRITICAL - 2024-11-12 10:26:06 --> ErrorException: Undefined variable $category
+[Method: GET, Route: customers/index]
+in APPPATH\Controllers\CustomerController.php on line 19.
+ 1 APPPATH\Controllers\CustomerController.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CustomerController.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CustomerController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CustomerController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 14:16:15 --> ErrorException: Undefined variable $customerId
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\index.php on line 18.
+ 1 APPPATH\Views\cart\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerId', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/index', [], true)
+ 5 APPPATH\Controllers\CartController.php(33): view('cart/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 14:18:40 --> ErrorException: Undefined variable $customerId
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\index.php on line 18.
+ 1 APPPATH\Views\cart\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerId', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/index', [], true)
+ 5 APPPATH\Controllers\CartController.php(33): view('cart/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 14:44:30 --> ErrorException: Undefined variable $customerId
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\index.php on line 18.
+ 1 APPPATH\Views\cart\index.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $customerId', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php', 18)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/index', [], true)
+ 5 APPPATH\Controllers\CartController.php(33): view('cart/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:06:20 --> ArgumentCountError: Too few arguments to function App\Controllers\CartController::index(), 0 passed in C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: GET, Route: cart/index]
+in APPPATH\Controllers\CartController.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:06:49 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:06:49 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:06:49 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:06:49 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:08:11 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:08:11 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:08:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:08:11 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:08:43 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:08:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:08:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:08:43 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:09:43 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:09:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:09:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:09:43 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:41:32 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:41:32 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:41:32 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:41:32 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:41:35 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:41:35 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:41:35 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:41:35 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(34): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:42:06 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:42:06 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:42:06 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:42:06 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:44:46 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:44:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:44:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:44:46 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-11-12 15:45:22 --> mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list' in C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php:312
+Stack trace:
+#0 C:\xampp\htdocs\invoicing_system\system\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINC...', 0)
+#1 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINC...')
+#2 C:\xampp\htdocs\invoicing_system\system\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINC...')
+#3 C:\xampp\htdocs\invoicing_system\system\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINC...', Array, false)
+#4 C:\xampp\htdocs\invoicing_system\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\invoicing_system\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(933): App\Controllers\CartController->index()
+#8 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+#9 C:\xampp\htdocs\invoicing_system\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\invoicing_system\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\invoicing_system\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\invoicing_system\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-11-12 15:45:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+[Method: GET, Route: cart/index]
+in SYSTEMPATH\Database\BaseConnection.php on line 688.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:45:22 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 317.
+ 1 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:45:22 --> [Caused by] mysqli_sql_exception: Unknown column 'DISTINCT' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 312.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(312): mysqli->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(734): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `DISTINCT` `customer_id`
+FROM `cart`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT `DISTINCT` `customer_id`
+FROM `cart`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\CartController.php(33): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:48:12 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 119.
+ 1 APPPATH\Controllers\CartController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 119)
+ 2 APPPATH\Controllers\CartController.php(136): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:49:04 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 119.
+ 1 APPPATH\Controllers\CartController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 119)
+ 2 APPPATH\Controllers\CartController.php(136): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:50:29 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 119.
+ 1 APPPATH\Controllers\CartController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 119)
+ 2 APPPATH\Controllers\CartController.php(135): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:50:37 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 119.
+ 1 APPPATH\Controllers\CartController.php(119): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 119)
+ 2 APPPATH\Controllers\CartController.php(135): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:51:49 --> ErrorException: Attempt to read property "price" on array
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 120.
+ 1 APPPATH\Controllers\CartController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "price" on array', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 120)
+ 2 APPPATH\Controllers\CartController.php(137): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:51:58 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 120.
+ 1 APPPATH\Controllers\CartController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 120)
+ 2 APPPATH\Controllers\CartController.php(137): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:52:07 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 120.
+ 1 APPPATH\Controllers\CartController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 120)
+ 2 APPPATH\Controllers\CartController.php(137): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 15:52:18 --> ErrorException: Undefined array key "price"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 120.
+ 1 APPPATH\Controllers\CartController.php(120): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "price"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 120)
+ 2 APPPATH\Controllers\CartController.php(137): App\Controllers\CartController->calculateTotal([...])
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:07:02 --> ErrorException: Array to string conversion
+[Method: GET, Route: cart/view/2]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\invoicing_system\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 7 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Controllers\CartController.php(116): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:09:20 --> ErrorException: Array to string conversion
+[Method: GET, Route: cart/view/2]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\invoicing_system\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 7 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Controllers\CartController.php(116): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:09:29 --> ErrorException: Array to string conversion
+[Method: GET, Route: cart/view/2]
+in SYSTEMPATH\Database\Query.php on line 331.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\invoicing_system\\system\\Database\\Query.php', 331)
+ 2 SYSTEMPATH\Database\Query.php(331): implode(',', [...])
+ 3 SYSTEMPATH\Database\Query.php(312): CodeIgniter\Database\Query->matchNamedBinds('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...])
+ 4 SYSTEMPATH\Database\Query.php(163): CodeIgniter\Database\Query->compileBinds()
+ 5 SYSTEMPATH\Database\BaseConnection.php(648): CodeIgniter\Database\Query->getQuery()
+ 6 SYSTEMPATH\Database\BaseBuilder.php(1644): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `cart`
+WHERE `customer_id` = :customer_id:', [...], false)
+ 7 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 8 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 9 APPPATH\Controllers\CartController.php(116): CodeIgniter\BaseModel->findAll()
+10 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal([...])
+11 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+12 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+13 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+14 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+15 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+16 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:09:52 --> TypeError: App\Controllers\CartController::calculateTotal(): Argument #1 ($customer_id) must be of type array, string given, called in C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php on line 145
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 114.
+ 1 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal('2')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:10:13 --> TypeError: App\Controllers\CartController::calculateTotal(): Argument #1 ($customer_id) must be of type array, string given, called in C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php on line 145
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 114.
+ 1 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal('2')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:10:14 --> TypeError: App\Controllers\CartController::calculateTotal(): Argument #1 ($customer_id) must be of type array, string given, called in C:\xampp\htdocs\invoicing_system\app\Controllers\CartController.php on line 145
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 114.
+ 1 APPPATH\Controllers\CartController.php(145): App\Controllers\CartController->calculateTotal('2')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:10:31 --> ErrorException: Array to string conversion
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 117.
+ 1 APPPATH\Controllers\CartController.php(117): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 117)
+ 2 APPPATH\Controllers\CartController.php(146): App\Controllers\CartController->calculateTotal('2')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:11:22 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(152): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:11:31 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 134.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CartController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\CartController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:11:58 --> ParseError: syntax error, unexpected token "return"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 135.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\CartController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\CartController')
+ 4 SYSTEMPATH\CodeIgniter.php(887): class_exists('\\App\\Controllers\\CartController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(496): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:12:27 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(153): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:13:16 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(154): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:13:55 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(155): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:14:00 --> ErrorException: Undefined variable $itemTotal
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 128.
+ 1 APPPATH\Controllers\CartController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemTotal', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 128)
+ 2 APPPATH\Controllers\CartController.php(149): App\Controllers\CartController->calculateTotal('2')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:14:06 --> ErrorException: Undefined variable $itemTotal
+[Method: GET, Route: cart/view/2]
+in APPPATH\Controllers\CartController.php on line 128.
+ 1 APPPATH\Controllers\CartController.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $itemTotal', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Controllers\\CartController.php', 128)
+ 2 APPPATH\Controllers\CartController.php(149): App\Controllers\CartController->calculateTotal('2')
+ 3 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 4 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:16:27 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(154): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:17:05 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(154): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:18:44 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(150): view('cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:18:50 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(150): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:20:21 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(150): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:20:43 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(150): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:20:52 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(150): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:24:29 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(164): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:25:04 --> ErrorException: Undefined array key "product_name"
+[Method: GET, Route: cart/view/2]
+in APPPATH\Views\cart\view.php on line 27.
+ 1 APPPATH\Views\cart\view.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "product_name"', 'C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php', 27)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\invoicing_system\\app\\Views\\cart\\view.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('/cart/view', [], true)
+ 5 APPPATH\Controllers\CartController.php(164): view('/cart/view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CartController->view('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CartController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:53:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 16:57:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:02:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:06:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:14:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:14:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:15:03 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 17:15:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(55): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 22:27:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(56): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 22:28:07 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(56): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 22:30:33 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(56): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-12 22:30:45 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "invoice/create.php"
+[Method: GET, Route: invoice/create/2]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('invoice/create.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('invoice/create', [], true)
+ 3 APPPATH\Controllers\InvoiceController.php(56): view('invoice/create', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\InvoiceController->create('2')
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\InvoiceController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
